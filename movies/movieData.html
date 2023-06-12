@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/c304a8e4c5.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <a href="/">
+          <img
+            class="nav__logo"
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABBVBMVEX///9AQEDhLSjAIibYKifEIybeLCjXKifFIybRKCfJJSfMJifcLCjSKCfOJyc9PT0wMDA4ODjGxsbW1tZqamqFhYXbEQlUVFTvpKPs7OxISEj5+fn98/PjLCVeXl765uTBAAnrOTPfkJHJAADehIXcQD3xyMjKLzMsLCzvR0PAFButra3LUlbwtbVsbGznJR7SUVPXe36CgoLoYV3oh4Xjpafx8fHg4OCSkpKdnZ3VFxPcVFPYR0fdYWGysrLcdXbLy8vaaGjx0tTyp6XtHxXHOT3tgH323d3wzM3WbG3hoKHzs7HoXlrvlZLqVE7pSkXueHXAAADrvLzTXmDJQETaiYvUb3OQ5pNmAAARuElEQVR4nO2deV/iPBDHwUVk8WiLBw8WpYsKbBXxRuuB4gHq6q7H7vt/KU+vJJM0gaaggB9+f+2maZpvZjKZpFVjsbHGGmusscYaa6yxxhprrLHGGutLK6PGKanz4OIlfVGhLvauRQ21rC30tWFKGVWhpF6Ai5vMxUq/CVHDH0tI21A7prrQwcC9izSvfCbhNri4oHxBQmX5CF/Ts1+RMK7m8LW6xl77GoSEYr7DtX5oQITaJr528jVtCIIpG0q/CKFCgum28jUJFXRJX/5gwr2BrPjxeAUF06MKe6nPhMerC75W9/raMKUgoXopvtRfws8RBwNlpptsoPkqhDiYBkLpiBMqq1n0D/8SytmWl78I4cKqR6TE/UsqRlfEhPXNxYXt7e3Fk37D1zeP7Xa3944v6r01BAj3fBDNC6Y5P5Qqe1mhDS+yquaGfE1TsyekfG8Va1snxcekeC/4X6pbq5rXst2wmt2M9SDgpSiy+BzoinYh8tL5rApWTLszGYxCts4q2avEVvECqDqdFq6HuVXYcFxRlUwssgAh+qcfTBGwlhEQZipMRqBUUJACxx948bE7Tqq6i64op7nU2BhHWu6JcB4hLbpX9tBj5vmEF4GEwK7ge9sRSYdAJk/2KkpWFxNmVDaXclqOjEgIszH/gX5migJP9og8BhBmOICkIySl9cfLEVlgvRWJT5hjXcNTBR4gRSXETM4Ao6xU2dZ5hDmN2494xZsxF8RccXwP9oq4mhESBrNh1HLEaA0J0RM1Jz6jDb52wrXhQiAdQEBu7ATHAxUUasChiJITEh4LGnY62DMhGngXBE0aNcMj5PuoOyKen8YxDQ41R8SuHhCPMHByQlSJFlAhIV4fnOBA1g4eIXtGBRFd+wCPRBOIBFjtREi4BwgVey2E/41mRECoozXeNQN6VEUnQR4TBrNZQHhM18Dnk+RQxG+HQ5gDvqFlNy8z2+BJ0ZJGSIiCqdunBZzDcQi34dDawZ1a+d0tNNlcKsv+Tdg8aJPNIQRHQ5qXDZGYBcNyVEJEtazjFc1eOoKEOTCwSvxS1+urANkLlMSPNT+xVFCJtickJIHU6QRbKwsywGiEKI7Z4S9H5mSQEOwc0QkyQPQAgE9eesOCrapmRIR14qSoUixH/CPSgkER4uhyicOCHSeChMBJUVGd9MNzwnk2rpCZidaPICFYRvFxEXiaBpL7aISXxHDIBJU6hxCYEJ/MgSDoHpsfxRmnxEbFG9AgIWmEnwpFOc6hCLFrHmOHVfUgIc+X4AG5V4iH3p8+q5gYWSJISCYveMsH09leCXF4ARlcLEgIwptC3nKAmOcibBI3dSvFA/voACFZeakEEUzEXglxwqzhhWORQ7gJohtpibyK85ypToca/F8ljtK4ACEv14vBAFshAxqRED1TRZ7hmCNAyN8THLOlWcot8YPIZAq0Azxd2yTCuze42YxIiHe9eBpmOITAWmDXBizrhRIcNlwmjENmWIAQfjegEZFCNUJqShPiQURHM2qdQwgWc3CCcsEGBNK0s3jjYdHwyVKAsFMyyIxOVMJgZp/rSKh2IiSJmz2p8K4fTN1BEMaY7afrb1FtSOrZzlXH05AsdBEII5y6MYSrNKE7gyIT4jXeroavgmAxEMI92k3dKBiZcB65qZ354EhbIdnzQAgv6Ge4sasTIUgUA7EUZHcadg58rRuhwlMfCJnvvLR5HiHIHsHXNyfBVRJXrNSBw4oJ4acRCzyt9h5pcvT5i3LEIzwJWitGbQHQmo4TN404KchKOuU0qjxKOMIYZUNve94hL8Xb1BjY4BI74QAaX6ZaFBHCQ/Ee38eICakjJs8JA4RwG4ET5BxnwxH4qEr02Rzya7JYRclewhFSr0U9YwQIdQJDegz2/eSzquD3KrDjQcJtbgzrLyH1atvrT3AHTFZNJY5owHGvEmwdX4Obg457fOLOej0X5XxGREgFU+9cJEgIT8T2gkUka8kxXkq/YwoSQv/HE/G4omS3Fzfn6xG2ThxC6hMTb8MZJASbfP9dzAk81gSeyExE2vc4uzCwt0ZFDrVi7zBULb4MPw2NSghfjPi5Cee8FCZ3mrJ4vAyXahgume856DNdDiF4a6F6rjBP3g9ESmkChPBTL98DOYSb1PzSqPdQlJ3mmdWHmlAcwnnoHQuZ+vwxOGwmpwM9EYJR9PvKIdTj7DIACKnpQg8F7WW8swL4WbKiVlQqtEd6SxoghFE/IyJkjEhR0N3YDsbmjoTil1rs2EUmBH7l5xU8QnYjScY9Tkd2KpVnDpK45z3st+VgfKJ9khEgzIHj3iMxYV1gRPYlH/WKgznu5BLOi4xIRbBeCEmmhdJqLmFsk/8en309BBM3Nk8RnNmJxq73t9y+e5Ejo71OhNyeqMFjdxC5KpdhCGPbXMSIb4B5hOQQ8KQjYewk8NFEhfOCDyRuCpN8CQh1DqISPRPPVND+GRFeoO+ZUKM50U8FZegvezTuSRi5O/BeRfhTQccVjeFbjv7ZXEZZ9rXqE86jEsXPDHOoxrLGPOfoRFX9XmqqeswP5tvoboWNhYtx3DKTjtW3K6hhp+XlzV5S7x6VWVzI2lpY7Nt+zlMus+c2nF3duxjFbz7HGmusscYaa6yxxvok6Y5ieh6p0Fm4nu5p0N0H0mNO55utVsnW47WtgztHv/YdPf9E+tFZuJ53377bxpPTXNVpuNlqOsMQ+yRy2yCttk1ycLe//+v5+fePnxO1Wu0GqQa0Ii94O2zSHobfz8/2ANwdPF0/tluF/Mfg5kvXf55/8BAmPlK8Afj56+66lO8vnl66+1m7qX0wTVg5tCu/n5p9BHx8tpscNBcth3K/1Ce+0vPNkOF5Wqnd/Cn0gU9/GjbzAdV+PPYMmN+vDRqjk1ZunnoELPweakBbN3c9RVUbMDlohG66Oe9hedR/DbsFHdUOohM+LQ2696F08xoVsF2bSI6CVn5GnYr7tUH3PaRqEQNqaURMmLSDYbSV/3xUTBjViK3RAUyu/I4yEw9GiDC5FCWc/l4ZdLclVPsjD1iCJpwJo9DdiXBLV/2Qd9MnQLgUSla4Ds9Y5Jb+uUmtKguY/0Webj39F0LXd1aovlh31/iW/b4hyqduBfDspXCrzetSqL4sgdE+CDco3TWz8kvWTasrZLaEJgw1XWnCULeECQIrLUlC+OxRIJypya4X5yNmwxnZtKbwe2LECFfO5QibcNUaCcKJZ7mtfqkG+zQKhMkNuf3F61JixAhnZuTOwK9rCaLQhIkwoglD3RJGM5bcCTj16JEgTFhyedsfsFg4XqoTUfVg+YC9dEnu+Pt0AoxOcgPoDGZH5/DKxsxAbSi5IG4k4c0wA5yChKcwrwwH+HFeKpd7/0gK2pmZpQhX5HvyUYRyS35eaJCZ7xShaCA66KMIJ05lCAsTonaGlzC5IZPUlITeN7yEiaTMDrEkfvLwEtZkCB+tKYFYQlE9sWhCr9GkZS0tWZaVED7WQkqK6iRqMolpBMIEPJNCheDQaWlGRGj3/vSp2my9Pu1b3BFLWEsb5wfX1Wr18enqTDQOiZrMLv8/acLERruE1G74t1tXoPBshk+YtK5KKEaUzjgPtqzzV2KefPtglsuYsGRS7ydpwpkzUFxEhAecugyhtQGPHwrngSdbp2xK3bpb4iFKJabyhIkzzu0hCK1TevYUNujOJ5aeOAGkmuS4syVzUnO38kmES1fsIlZaoh5n8fPp5kYQ0fpvCAkb50EDQT8VAdqIUwFHtWRS7z9iwjmKED+GIZzlECaChNccD3wFhB06/UrZ2q1cDA+Y77DO9ZWQ+3AyE63TDot4g40VMjbsQNhfG3J1RZbTTgcThTnGT1fupAhnBWJtiMoT9GrhFTKEXuFaN8L//LtnrauO9Z4sumtDS9h6fKRN1V5DhFWm3iO1pjenpqITniVmBeo3YenUSTbP4KLY8ns+lQCPyt879dbOYcVTupdShBv06HwYYf5pza1K+WPBH18LbtoPPMOuNUDZf7SbWvBadMLZvhIW13xzWSBrzp97NdcOQZnFqVham4VKSrzL/zTCAxxU4Mp+5ZXCSPq6xqnYmqW6mZQ4qPk0wnVMuA5qetxT08BcRV5FJlz0i3CaTzhFE36XJYRzyCeEJ7OEEDZ5ThEmRofQK02c6ryKsMl7KtQMN2ECBtP1YHxtcLOARi+E3wViCVE5S+iKIfQKaUL/dqp3XinDgipyS4NtdCWcFRKmIxNO9Z2wOCbsQCj20uiE/ffSz7AhHgmGcM4jXOfUDUtoQJarNSRY8SsRVotIMG//SoR89UQ4JxBLiMsZQlcMoVdIE/q3T9GETlEoQti1PhF+j044yyE0xoRjwqiE5e/hCHfwSHAJjYiERlhCA3Zt6ssTfn0bJmTOaXolNGQJZ7sQtkoctRtTsGtShKez0wLNlWlCVP6dJvQKGUKvkCb0b2cI3Zv5WRuUQXVNinBnSpZw9mMJGzQMV2NCmvADvHRnmAj182Gbh2EIDYn3h7FGov+EH27DPhFO04QmJnynCNMcQlOO0OQTzoH90twnEBIb9kj4FpLQvMoTNfAAu0+T+dqkaH02YVgbCizrPk3ma5OilQ5HiAdxrjdCM7wN+0P4YKQFYglROUvoiiH0CmlC/3aq414pw8Kr2IDdnLZkvmurfjrhbmfCIq4IF72RIqTezHiEWzxCqkmaMCHz9WV7SpbQ5BG+/A1LSHXcJ3wHT3rgVnzDj3cEX/t3VbMvhOZ7gVOXTwjeaPul02ngde01HuE5JKR71k2FueneCaenqY9DeIS7mBBW9Z3PAG+586bfIRgw8++QcO5M5kv2fB8Ip9fo6M0jrBpeoXkLW73yCtceQNm6Z0QTPr5Qhr38LvcjlhsiwnQYwld7nTJMZnlCdV9g6tG+dRjNF1g379c0d0Bh4d2uOG1Sa16bioez3U89oM7meiHUd6fL9+w3yVzCWP5hazK9QxUVbpFHwmlcWL+dLr9RX08VKUIDhrXu2plLyREy87wVXJv4hPZwtFp0iGihRo0HqrzQbFEzjZ6GKUPmA1p7spspvlhCUt5tNUJ1WcKASobfJj07A3o10rBnUok3CONhbZg2u30pL7JhQMT5GCPS0sHD3cpyP5AvTmpEhLyOtx44dWFFro1Ao6kOiRibO5ttKcJXS3Ie0kux3//3XU5dSPjAGZYmMI25I/TTFqjmSe7XRrSNFF+iechccAG3XtY5dSnCl+DA78JHG/ciwFsmUkyfyaQ0dgOpdIorIWGKSrxi7gpmdCUMrJqx0gv1POOeG8ECgClzR+43DuTfp2UJzTLlJiW7D2EIzSLVs1aZ6brxzplfVbaW/XiRtUW6Fy0XZdihLVjL3AE/nVQ07UvUIozqwvzl0EiljS0QhdsB26RMc50xY+veCPbOlDmHclQUEU7+LRLd0g9JH3oGLjyUXzxmTl3znpS9OU8xjfuqe5/ebnC6bg/Uy9UhygryzcO3F16lhFwotZ1sVkCYMoAY+LTx7W13t7GTNsxJt8Dk1IWFfldN49tOo7F1a4rim2mY5R276bedsskdhBAZB6t8WRBqush09BH3pc1OVSbNN9nfYqq/mZOjJOlp6IS5QXdaRinJjMZR00wNutsSSkkdYfh6HyE3/WYGc8buOhwhN00ZUX4FfSE1Om5KHXiE1675bUQ0yebEIdUcmYlIHR7LaH1EEL9JHmAQFcojMRO/UW845FQ1Bj3DwmjSkP2lkEC7I4AYNcx40oc/nk6anQ7kwiAak4Nm6KhJsxcLunowhtmMZuCcJ4KaO2Zq0CACpYy3HoIMkV59N4fRjimz3LOHIuWrb+awOatpvBf78ZeCsFrVt7J31DDoyDPp9qL8r99/tculfH34e79165+YoGMTN634IBhb6AzHUzpdfn/7Vzzs59/rYqTn84VmqXpY/Pv337/G29bW1q2tbylnj+YdnzEC2RUPwBN1h380Z7foNG0/4f7fv92/fx8Oq+12y/lzgh9HxwPWdeePGDYdeZ+XH3ra9eWMgafbMit8aeveq7zu3eu247ToND1cfxJxrLHGiqT/AY9jf84C6iCfAAAAAElFTkSuQmCC"
+            alt=""
+          />
+        </a>
+        <ul class="nav__links">
+          <li>
+            <a class="nav__link link__hover-effect" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav__link link__hover-effect" href="movieTube.html"
+              >Movies</a
+            >
+          </li>
+          <li>
+            <a class="nav__link nav__link--primary" href="#">Contact</a>
+          </li>
+        </ul>
+        <button class="btn__menu" onclick="openMenu()">
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="menu__backdrop">
+          <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+            <i class="fas fa-times"></i>
+          </button>
+          <ul class="menu__links">
+            <li class="menu__list">
+              <a href="index.html" class="menu__link" onclick="closeMenu()"
+                >Home</a
+              >
+            </li>
+            <li class="menu__list">
+              <a href="movieTube.html" class="menu__link" onclick="closeMenu()"
+                >Movies</a
+              >
+            </li>
+            <li class="menu__list">
+              <a href="#" class="menu__link" onclick="closeMenu()">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="movie-data">
+      <a href="movieTube.html" class="btn__link">
+        <button class="search__btn back-btn">
+          <i class="fa-solid fa-chevron-left"></i> Back
+        </button>
+      </a>
+      <div class="movie__container container">
+        <div class="movie__row">
+          <!-- <div class="movie__wrapper">
+                    <figure class="movie__figure">
+                        <img src="" alt="" class="movie__figure--img">
+                    </figure>
+                    <div class="movie__data">
+                        <p class="movie__data--title">Genre:<span class="movie__data--description"> </span></p>
+                        <p class="movie__data--title">Actors:<span class="movie__data--description"> </span></p>
+                        <p class="movie__data--title">Plot:<span class="movie__data--description"> </span></p>
+                        <p class="movie__data--title">Ratings:<span class="movie__data--description"> </span></p>
+                        <p class="movie__data--title">Type:<span class="movie__data--description"> </span></p>
+                        <p class="movie__data--title">Year:<span class="movie__data--description"> </span></p>
+                    </div>
+                </div>
+                <div class="movie__title">
+                    <h1 class="movie__data--title"><span class="movie__data--description"> </span></h1>
+                </div> -->
+        </div>
+      </div>
+      <h1 class="movie__title--similar">Similar Movies</h1>
+      <div class="movie__wrapper movie__wrapper--data">
+        <!-- <div class="movie">
+              <img class="movie__img" src="" alt="" />
+              <h3 class="movie__title">movie title</h3>
+              <p class="movie__sub-title">year</p>
+            </div> -->
+      </div>
+    </section>
+    <script src="./movieData.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
